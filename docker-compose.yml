@@ -1,0 +1,7 @@
+ipcalculator:
+ image: imperfection/ipcalculator
+ links:
+ - redis
+
+redis:
+ image: redis
