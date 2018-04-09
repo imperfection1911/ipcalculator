@@ -85,3 +85,6 @@ class Test(unittest.TestCase):
         network = cidr.get_network_by_range(hostmin, hostmax)
         result = int(''.join(map(str, network)))
         self.assertEqual(result, 11000000101010000001000000000000)
+
+if __name__ == '__main__':
+    unittest.main()
